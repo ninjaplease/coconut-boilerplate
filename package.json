@@ -1,0 +1,12 @@
+{
+  "name": "coconut-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "sudo nodemon app.js"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "express-plates": "git://github.com/ninjaplease/express-plates.git" 
+  }
+}

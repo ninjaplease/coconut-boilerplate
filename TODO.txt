@@ -1,0 +1,18 @@
+/**
+*
+*  TODO: Session Options
+*  TODO: Checkout HTML5 Boilerplate
+*  TODO: How to leverage Bootstrap example layouts
+*
+*  DONE: Add .gitignore
+*  DONE: provisional README.md
+*  DONE: license.md
+*  DONE: Use Plates for Templating
+*  DONE: Use modified express-plates  
+*  DONE: Bootstrap
+*  DONE: Angular
+*  DONE: JQuery
+*  DONE: Font Awesome
+*  DONE: Bootswatch
+*
+*/
