@@ -9,6 +9,8 @@
     "express": "3.x",
     "express-plates": "git://github.com/ninjaplease/express-plates.git", 
 		"nano": "*",
-    "request": "*"
+    "request": "*",
+		"redis": "*",
+		"hiredis": "*"
   }
 }
