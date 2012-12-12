@@ -7,10 +7,10 @@
   },
   "dependencies": {
     "express": "3.x",
-    "express-plates": "git://github.com/ninjaplease/express-plates.git", 
-		"nano": "*",
+    "express-plates": "git://github.com/ninjaplease/express-plates.git",
+    "nano": "*",
     "request": "*",
-		"redis": "*",
-		"hiredis": "*"
+    "redis": "*",
+    "hiredis": "*"
   }
 }
