@@ -11,34 +11,40 @@ app.configure(function() {
 		app.set('node_gid', process.env.NODEGID || 'node');
 		app.set('cookie_secret', "Dont forget to change me")
 
+
+		//Use Plates for template engine (https://github.com/flatiron/plates)
 		var plates = require('express-plates').init(app);
 		app.set('views', __dirname + '/views');
 
+
 		app.use(express.favicon('./public/assets/favicon.ico'));
 
+
 		app.use(express.logger('dev'));
+
 
 		app.use(express.bodyParser());
 		app.use(express.methodOverride());
 
+
 		app.use(express.cookieParser(app.get('cookie_secret')));
 		app.use(express.session());
+
 
 		app.use(app.router);
 		app.use(express.static(path.join(__dirname, 'public')));
 });
 
+
 app.configure('development', function() {
 		app.use(express.errorHandler());
-
-    // some stuff for testing
-		testRoutes = require('./routes/test.js');
-		app.get('/plates', testRoutes.plates);
 });
+
 
 app.configure('production', function() {
     
 });
+
 
 app.listen(app.get('port'), app.get('host'), null, function() {
 		try {
