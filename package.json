@@ -11,6 +11,8 @@
     "nano": "*",
     "request": "*",
     "redis": "*",
-    "hiredis": "*"
+    "hiredis": "*",
+		"connect-redis": "*",
+    "formidable": "*"
   }
 }
