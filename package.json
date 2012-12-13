@@ -13,6 +13,7 @@
     "redis": "*",
     "hiredis": "*",
 		"connect-redis": "*",
-    "formidable": "*"
+    "formidable": "*",
+		"node-uuid": "*"
   }
 }
